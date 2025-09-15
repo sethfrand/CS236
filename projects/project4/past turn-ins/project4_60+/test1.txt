@@ -1,0 +1,17 @@
+#test   
+
+Schemes:
+
+    Parent(Name, Child)
+    Ancestor(Name, Descendant)
+
+Facts:
+    Parent('Alice', 'Bob').
+    Parent('Bob', 'Charlie').
+
+Rules:
+    Ancestor(X, Y) :- Parent(X, Y).
+    Ancestor(X, Y) :- Parent(X, Z), Ancestor(Z, Y).
+
+Queries:
+    Ancestor('Alice', 'Charlie')?

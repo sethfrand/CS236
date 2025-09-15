@@ -1,0 +1,185 @@
+New tuple added: '1' 
+New tuple added: '2' 
+New tuple added: '4' 
+Pass 1 starting...
+Evaluating rule: b(y) :- a(y)
+Intermediate relation for a: 3 tuples
+New tuple added: '1' 
+New tuple added: '2' 
+New tuple added: '4' 
+New tuple added: '1' 
+New tuple added: '2' 
+New tuple added: '4' 
+New tuple added: '1' 
+New tuple added: '2' 
+New tuple added: '4' 
+New tuple added: '1' 
+New tuple added: '2' 
+New tuple added: '4' 
+Joined result: 3 tuples
+New tuple added: '1' 
+New tuple added: '1' 
+New tuple added: '2' 
+New tuple added: '2' 
+New tuple added: '4' 
+New tuple added: '4' 
+Tuples added to b: 3
+Rule b(y) :- a(y) added 3 tuples
+Evaluating rule: c(z) :- b(z)
+Intermediate relation for b: 3 tuples
+New tuple added: '1' 
+New tuple added: '2' 
+New tuple added: '4' 
+New tuple added: '1' 
+New tuple added: '2' 
+New tuple added: '4' 
+New tuple added: '1' 
+New tuple added: '2' 
+New tuple added: '4' 
+New tuple added: '1' 
+New tuple added: '2' 
+New tuple added: '4' 
+Joined result: 3 tuples
+New tuple added: '1' 
+New tuple added: '1' 
+New tuple added: '2' 
+New tuple added: '2' 
+New tuple added: '4' 
+New tuple added: '4' 
+Tuples added to c: 3
+Rule c(z) :- b(z) added 3 tuples
+Evaluating rule: d(w) :- c(w)
+Intermediate relation for c: 3 tuples
+New tuple added: '1' 
+New tuple added: '2' 
+New tuple added: '4' 
+New tuple added: '1' 
+New tuple added: '2' 
+New tuple added: '4' 
+New tuple added: '1' 
+New tuple added: '2' 
+New tuple added: '4' 
+New tuple added: '1' 
+New tuple added: '2' 
+New tuple added: '4' 
+Joined result: 3 tuples
+New tuple added: '1' 
+New tuple added: '1' 
+New tuple added: '2' 
+New tuple added: '2' 
+New tuple added: '4' 
+New tuple added: '4' 
+Tuples added to d: 3
+Rule d(w) :- c(w) added 3 tuples
+Pass 2 starting...
+Evaluating rule: b(y) :- a(y)
+Intermediate relation for a: 3 tuples
+New tuple added: '1' 
+New tuple added: '2' 
+New tuple added: '4' 
+New tuple added: '1' 
+New tuple added: '2' 
+New tuple added: '4' 
+New tuple added: '1' 
+New tuple added: '2' 
+New tuple added: '4' 
+New tuple added: '1' 
+New tuple added: '2' 
+New tuple added: '4' 
+Joined result: 3 tuples
+Tuples added to b: 0
+Rule b(y) :- a(y) added 0 tuples
+Evaluating rule: c(z) :- b(z)
+Intermediate relation for b: 3 tuples
+New tuple added: '1' 
+New tuple added: '2' 
+New tuple added: '4' 
+New tuple added: '1' 
+New tuple added: '2' 
+New tuple added: '4' 
+New tuple added: '1' 
+New tuple added: '2' 
+New tuple added: '4' 
+New tuple added: '1' 
+New tuple added: '2' 
+New tuple added: '4' 
+Joined result: 3 tuples
+Tuples added to c: 0
+Rule c(z) :- b(z) added 0 tuples
+Evaluating rule: d(w) :- c(w)
+Intermediate relation for c: 3 tuples
+New tuple added: '1' 
+New tuple added: '2' 
+New tuple added: '4' 
+New tuple added: '1' 
+New tuple added: '2' 
+New tuple added: '4' 
+New tuple added: '1' 
+New tuple added: '2' 
+New tuple added: '4' 
+New tuple added: '1' 
+New tuple added: '2' 
+New tuple added: '4' 
+Joined result: 3 tuples
+Tuples added to d: 0
+Rule d(w) :- c(w) added 0 tuples
+Rule Evaluation
+b(y) :- a(y).
+  y='1'
+  y='2'
+  y='4'
+c(z) :- b(z).
+  z='1'
+  z='2'
+  z='4'
+d(w) :- c(w).
+  w='1'
+  w='2'
+  w='4'
+b(y) :- a(y).
+c(z) :- b(z).
+d(w) :- c(w).
+
+Schemes populated after 2 passes through the Rules.
+
+Query Evaluation
+New tuple added: '1' 
+New tuple added: '2' 
+New tuple added: '4' 
+New tuple added: '1' 
+New tuple added: '2' 
+New tuple added: '4' 
+New tuple added: '1' 
+New tuple added: '2' 
+New tuple added: '4' 
+New tuple added: '1' 
+New tuple added: '2' 
+New tuple added: '4' 
+New tuple added: '1' 
+New tuple added: '2' 
+New tuple added: '4' 
+New tuple added: '1' 
+New tuple added: '2' 
+New tuple added: '4' 
+New tuple added: '1' 
+New tuple added: '2' 
+New tuple added: '4' 
+New tuple added: '1' 
+New tuple added: '2' 
+New tuple added: '4' 
+a(x)? Yes(3)
+  x='1'
+  x='2'
+  x='4'
+b(y)? Yes(3)
+  y='1'
+  y='2'
+  y='4'
+c(z)? Yes(3)
+  z='1'
+  z='2'
+  z='4'
+d(z)? Yes(3)
+  z='1'
+  z='2'
+  z='4'

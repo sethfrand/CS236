@@ -1,0 +1,5 @@
+Rule Evaluation
+Ancestor(X,Y) :- Parent(X,Y).
+  
+Ancestor(X,Y) :- Parent(X,Z), Ancestor(Z,Y).
+left tuple: Name='Alice', Child='Bob'

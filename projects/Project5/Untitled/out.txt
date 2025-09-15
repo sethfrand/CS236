@@ -1,0 +1,23 @@
+Dependency Graph
+Rule Evaluation
+b(y) :- a(y).
+  y='1'
+  y='2'
+  y='4'
+b(y) :- a(y).
+from rule R0: b(y) :- a(y)
+from body predicate: a(y)
+to rule R0: b(y) :- a(y)
+R0:
+
+Schemes populated after 2 passes through the Rules.
+
+Query Evaluation
+a(x)? Yes(3)
+  x='1'
+  x='2'
+  x='4'
+b(y)? Yes(3)
+  y='1'
+  y='2'
+  y='4'
