@@ -1,3 +1,5 @@
+Taken 2024
+
 ## Course Description ##
 Introduction to grammars and parsing; predicate and propositional logic; proof techniques; sets, functions, relations, relational data model; graphs and graph algorithms.
 
